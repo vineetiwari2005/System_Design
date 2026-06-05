@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         Set<Integer>set=Collections.synchronizedSet(new HashSet<>());
         Thread[]threads=new Thread[40];
