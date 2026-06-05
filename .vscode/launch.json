@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Singleton.Main",
+      "request": "launch",
+      "mainClass": "Singleton.Main",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
