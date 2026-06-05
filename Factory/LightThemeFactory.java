@@ -1,17 +1,13 @@
 package Factory;
 
-public class LightThemeFactory implements ThemeFactory {
-
+public class LightThemeFactory implements ThemeFactory{
     @Override
     public Button createButton(Double border,Double length,Double radius){
-        return new LightButton(border, length);
+        return new LightButton(border,length);
     }
-
     @Override
-    public Radio createRadio() {
+    public Radio createRadio(){
         return new LightRadio();
     }
-    
-
     
 }

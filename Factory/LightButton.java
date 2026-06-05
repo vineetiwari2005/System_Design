@@ -10,7 +10,6 @@ public class LightButton extends Button {
     public void onClick(){
         System.out.println("light button clicked"); 
     }
-
     @Override
     public void render(){
         System.out.println("RENDERED");

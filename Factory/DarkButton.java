@@ -11,7 +11,7 @@ public class DarkButton extends Button {
         System.out.println("DARK BUTTON WAS CLICKED");
     }
     @Override
-    public void render() {
+    public void render(){
         System.out.println("RENDERED");
     }
      
