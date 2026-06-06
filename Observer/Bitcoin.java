@@ -8,6 +8,9 @@ public class Bitcoin {
     public void SetPrice(Double price){
         this.price=price;
     }
+    
+
+
    
     
 }

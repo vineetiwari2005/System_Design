@@ -1,5 +1,4 @@
 package Observer;
-
 public class BitcoinTracker extends Observable implements BitcoinManager {
     Bitcoin bitcoin=new Bitcoin();
 
