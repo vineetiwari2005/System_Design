@@ -8,4 +8,7 @@ public interface NavigationStatergy {
     default void stop(){
         System.out.println("stopping");
     }
+    
+   
+    
 }

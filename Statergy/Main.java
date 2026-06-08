@@ -8,6 +8,8 @@ public class Main {
         Navigator walkeNavigator=new Navigator(new WalkingStatergy());
         walkeNavigator.navigate("home","park");
         
+        
+        
 
         
 
