@@ -6,7 +6,7 @@ public class Main {
         Gamer normalMario=new Mario();
         normalMario.getAbility();
         System.out.println("\n--- Getting a Mushroom (Height Up) ---");
-        Gamer tallMario = new HeightUpDecorator(normalMario);
+        Gamer tallMario=new HeightUpDecorator(normalMario);
         tallMario.getAbility();
         System.out.println("\n--- Getting a Fire Flower (Gun Power) ---");
         Gamer fireMario = new GunPowerDecorator(tallMario);
